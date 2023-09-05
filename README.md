@@ -2,5 +2,5 @@
 Windows audio devices scripts
 
 ``` cmd
-cl.exe /EHsc notification.cpp user32.lib ole32.lib
+cl.exe /EHsc GetDefaulAudioDevice.cpp user32.lib ole32.lib
 ```

@@ -3,8 +3,6 @@
 #include <Mmdeviceapi.h>
 #include <Functiondiscoverykeys_devpkey.h>
 
-//cl.exe /EHsc notification.cpp user32.lib
-
 bool SetClipboardText(const LPWSTR text) {
     if (OpenClipboard(NULL)) {
         // Empty the clipboard
